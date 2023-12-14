@@ -36,12 +36,12 @@ const MovieDetail = () => {
         <>
             <div className="movie-page">
                 <div className='movie__intro'>
-                    <img className="movie__backgroundImage" src={currentMovieDetail?.backdrop_path?`https://image.tmdb.org/t/p/original${currentMovieDetail ? currentMovieDetail.backdrop_path : ""}`:'https://img.freepik.com/premium-vector/default-image-icon-vector-missing-picture-page-website-design-mobile-app-no-photo-available_87543-11093.jpg'} />
+                    <img className="movie__backgroundImage" src={currentMovieDetail?.backdrop_path ? `https://image.tmdb.org/t/p/original${currentMovieDetail ? currentMovieDetail.backdrop_path : ""}` : 'https://img.freepik.com/premium-vector/default-image-icon-vector-missing-picture-page-website-design-mobile-app-no-photo-available_87543-11093.jpg'} />
                 </div>
                 <div className="movie__detail">
                     <div className="movie_leftsection">
                         <div className="movie__posterBox">
-                            <img className="movie__poster" src={currentMovieDetail?.poster_path?`https://image.tmdb.org/t/p/original${currentMovieDetail ? currentMovieDetail.poster_path : ""}`:'https://img.freepik.com/premium-vector/default-image-icon-vector-missing-picture-page-website-design-mobile-app-no-photo-available_87543-11093.jpg'} />
+                            <img className="movie__poster" src={currentMovieDetail?.poster_path ? `https://image.tmdb.org/t/p/original${currentMovieDetail ? currentMovieDetail.poster_path : ""}` : 'https://img.freepik.com/premium-vector/default-image-icon-vector-missing-picture-page-website-design-mobile-app-no-photo-available_87543-11093.jpg'} />
                         </div>
                     </div>
                     <div className="movie_rightsection">
