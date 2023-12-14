@@ -6,6 +6,7 @@ import MovieList from './components/movieList/MovieList';
 import MovieDetail from './pages/MovieDetail/MovieDetail';
 import Error from './pages/Error/Error';
 import SearchResults from './pages/SearchResults/SearchResults';
+import Footer from './components/Header/Footer';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path='/search/' element={<SearchResults/>}/>
         <Route path='/*' element={<Error/>}/>
       </Routes>
+      <Footer/>
     </div>
   );
 }
