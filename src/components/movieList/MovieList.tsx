@@ -22,6 +22,7 @@ const MovieList = (props: Props) => {
     },[type])
   return (
     <div className='movie__list'>
+        <div className='bg_gradient'/>
         <h2 className='list__title'>{(type?type:'POPULAR').toUpperCase()}</h2>
         <div className='list__cards'>
             {

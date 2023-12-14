@@ -1,13 +1,26 @@
-.movie__list{
+.movie__list {
     padding: 0 3rem 3rem 3rem;
 }
 
-.list__title{
+.list__title {
     font-size: 1.75rem;
     margin: 2.5rem;
 }
-.list__cards{
+
+.list__cards {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+.bg_gradient {
+    position: fixed;
+    height: 80vh;
+    border-radius: 30%;
+    top: 50%;
+    left: 60%;
+    transform: translateY(-50%);
+    background: rgb(255,192,0);
+background: radial-gradient(circle, rgba(255,192,0,1) 0%, rgba(0,0,0,1) 50%);
+    width: 80vw;
 }
