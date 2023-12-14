@@ -26,7 +26,7 @@ const Card = ({ movie }: CardProps) => {
                             <Skeleton height={300} duration={2} />
                         </SkeletonTheme> */}
                         {/* <Skeleton variant="rect" width={200} height={300} animation="pulse" /> */}
-                        <LinearProgress style={{color:'gold'}} variant='query' color='primary'/>
+                        <LinearProgress style={{color:'gold',backgroundColor:'gold'}} variant='query' color='primary'/>
                     </div>
                     :
                     <Link to={`/movie/${movie?.id}`} style={{ textDecoration: 'none', color: 'white' }}>
