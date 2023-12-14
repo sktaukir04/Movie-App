@@ -1,0 +1,15 @@
+.ErrorPage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    margin: auto;
+}
+.ErrorPage h1{
+    color: gold;
+    font-size: 3rem;
+    border-radius: 25px;
+    padding: 10px;
+    box-shadow: 10px 10px 10px gold;
+}

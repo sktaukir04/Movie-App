@@ -1,0 +1,16 @@
+.searchText {
+    margin: auto;
+    text-align: center;
+    margin: 20px;
+    color: gold;
+    text-transform: uppercase;
+}
+.searchResults{
+    width: 86%;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid gold;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}

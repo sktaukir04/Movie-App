@@ -1,0 +1,60 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 2.5rem;
+    padding: .5rem 0;
+}
+.headerLeft{
+    display: flex;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+}
+a> span{
+    margin: 0 30px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    color: white;
+}
+a > span:hover{
+    color: gold;
+}
+.logo{
+    width: 80px;
+    cursor: pointer;
+}
+
+.user_avtar{
+    font-size: 2rem;
+}
+.searchform{
+    padding: 10px;
+    display: flex;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.header_right{
+    width: 30%;
+}
+.searchform > input{
+    padding: 5px;
+    width: 100%;
+    border: none;
+    font-size: 20px;
+    outline: none;
+    border-radius: 25px;
+}
+.searchform > button{
+    position: absolute;
+    right: 20px;
+    border-radius: 50% !important;
+    border: none !important;
+    cursor: pointer;
+}
+i{
+    color: gold !important;
+}
