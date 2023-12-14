@@ -36,7 +36,7 @@ const Header: React.FC<HeaderProps> = () => {
       </div>
       <div className="header_right">
         <form action="" className='searchform' onSubmit={handleSearch}>
-          <input type="text" value={searchVal} onChange={(e: any) => setSearchVal(e.target.value)} />
+          <input type="text" placeholder='Search for movie' value={searchVal} onChange={(e: any) => setSearchVal(e.target.value)} />
           <button type="submit">
             <i className="fas fa-search"></i>
           </button>
